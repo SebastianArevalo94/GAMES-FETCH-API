@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+* {
+  font-family: 'Hubballi', cursive;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../assets/img/background.jpg");
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.filter-list {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 65px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form {
+    margin: 25px 0;
+}
+
+.label {
+    font-size: 75px;
+    color: #fff;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 50px;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 17px;
+    width: fit-content;
+}
+
+.card-info {
+    display: inline-flex;
+    gap: 15px;
+    margin: 12px;
+
+}
+
+.card-img {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.card-name {
+    text-align: center;
+    font-size: 35px;
+    width: 160px;
+    margin: auto 0;
+}
+
+.card-price {
+    background-color: #000;
+    color: #3AF005;
+    height: fit-content;
+    font-size: 35px;
+    margin: auto 0;
+    border-radius: 50px;
+    padding: 7px;
+}
+
+
